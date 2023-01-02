@@ -3,7 +3,7 @@ To facilitate Natural Language Processing of markdown documents by converting th
 
 # Installation
 ```shell
-# Requires Python 3.8 or higher
+# Requires Python 3.7 or higher
 python3 -m pip install mdit_plain
 ```
 
@@ -28,10 +28,10 @@ oh yeah...
 
 # Development and Testing
 ```shell
-# Requires Python 3.8 or higher
+# Requires Python 3.7 or higher
 git clone https://github.com/elespike/mdit_plain
 cd mdit_plain
-python3 -m pip install -e .[test]
+python3 -m pip install .[test]
 python3 -m unittest
 ```
 
